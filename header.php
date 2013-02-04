@@ -100,3 +100,5 @@ wp_head(); ?>
 	<?php responsive_wrapper(); // before wrapper ?>
     <div id="wrapper" class="clearfix">
     <?php responsive_in_wrapper(); // wrapper hook ?>
+    <?php 
+    if (is_front_page()){if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); }} ?>
