@@ -96,9 +96,8 @@ wp_head(); ?>
  
     </div><!-- end of #header -->
     <?php responsive_header_end(); // after header hook ?>
-    <?php if (function_exists("easing_slider")){ easing_slider(); }; ?>
+     <?php 
+    if (is_front_page()){if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); }} ?>
 	<?php responsive_wrapper(); // before wrapper ?>
     <div id="wrapper" class="clearfix">
     <?php responsive_in_wrapper(); // wrapper hook ?>
-    <?php 
-    if (is_front_page()){if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); }} ?>

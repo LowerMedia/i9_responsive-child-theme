@@ -22,9 +22,6 @@ if ( !defined('ABSPATH')) exit;
  */
 ?>
 <?php get_header(); ?>
-		<?php if (function_exists("easing_slider")){ easing_slider(); }; ?>
-		<?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
-		
         <div id="featured" class="grid col-940">
         <div class="grid col-460">
 
