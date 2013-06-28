@@ -24,7 +24,7 @@ if ( !defined('ABSPATH')) exit;
             <div id="post-0" class="error404">
                 <div class="post-entry">
                 
-                    <h1 class="title-404"><?php _e('404 &#8212; Fancy meeting you here!', 'responsive'); ?></h1>
+                    <h1 class="title-404"><?php _e('404 &#8212; PAGE NOT FOUND! :O ', 'responsive'); ?></h1>
                     
                     <p><?php _e('Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here.', 'responsive'); ?></p>
                     
