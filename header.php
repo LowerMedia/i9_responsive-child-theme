@@ -18,6 +18,10 @@ if ( !defined('ABSPATH')) exit;
  * @since          available since Release 1.0
  */
 ?>
+<?php
+ini_set(’zlib.output_compression’, ‘On’);
+ini_set(’zlib.output_compression_level’, ‘1′);
+?>
 <!doctype html>
 <!--[if !IE]>      <html class="no-js non-ie" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 7 ]>    <html class="no-js ie7" <?php language_attributes(); ?>> <![endif]-->
@@ -33,7 +37,7 @@ if ( !defined('ABSPATH')) exit;
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <?php 
 wp_enqueue_style('responsive-style', get_stylesheet_uri(), false, '1.8.4');
 wp_head(); ?>
